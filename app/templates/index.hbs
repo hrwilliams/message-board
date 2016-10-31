@@ -1,3 +1,9 @@
 <h1> ask the ether </h1>
 
 ??? questions here. see what happens.
+
+<ul>
+  {{#each model as |question|}}
+     <li>{{question.content}}- author: {{question.author}}</li>
+  {{/each}}
+</ul>
