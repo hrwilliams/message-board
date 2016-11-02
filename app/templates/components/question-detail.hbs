@@ -5,3 +5,11 @@
 <p>
   {{question.notes}}
 </p>
+
+<h2> Answers </h2>
+
+<ul>
+  {{#each question.answers as |question|}}
+    {{question-tile question=question}}
+  {{/each}}
+</ul>
