@@ -1,7 +1,5 @@
 # Message-board
-
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+An independent project for Epicodus to demonstrate knowledge of EmberJS. Users can ask questions and add answers to questions. Questions can be edited.
 
 ## Prerequisites
 
