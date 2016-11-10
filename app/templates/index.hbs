@@ -2,7 +2,9 @@
 
 <ul>
   {{#each model as |question|}}
-    {{question-popularity question}}{{question-tile question=question}}
+     {{question-tile question=question}}
+     {{!-- {{question-popularity question}} --}}
+    <br>
   {{/each}}
 </ul>
 

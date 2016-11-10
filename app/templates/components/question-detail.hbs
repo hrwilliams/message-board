@@ -1,3 +1,6 @@
+<br>
+{{question-popularity question}}
+<br>
 Question Author: {{question.author}}
 <br>
 Notes: {{question.notes}}
@@ -7,7 +10,7 @@ Notes: {{question.notes}}
 <div>
 <ul>
   {{#each question.answers as |answer|}}
-    {{answer-tile answer=answer}}
+  {{answer-tile answer=answer}}
   {{/each}}
 </ul>
 </div>
