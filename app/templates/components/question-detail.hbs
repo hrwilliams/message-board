@@ -1,19 +1,18 @@
-<h1>{{question.content}}</h1>
-
-<h2>{{question.author}}</h2>
-
-<p>
-  {{question.notes}}
-</p>
+Question Author: {{question.author}}
+<br>
+Notes: {{question.notes}}
 
 <h2> Answers </h2>
 
+<div>
 <ul>
   {{#each question.answers as |answer|}}
     {{answer-tile answer=answer}}
   {{/each}}
 </ul>
-
+</div>
+<hr>
 <button {{action 'addToFaves' question}}>Add Question to your list of Favorites</button>
 
-{{display-favorites}}
+{{!-- {{display-favorites}} --}}
+<hr>
